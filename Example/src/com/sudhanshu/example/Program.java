@@ -14,10 +14,15 @@ public class Program {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        for(int i=1;i<=10;i++){
-        System.out.println("Hello World " +i );
-        }
+    static String firstName = "sudhanshu";
+    static String lastName = "Malla";
+
+    public static void test() {
+        System.out.println(firstName + " " + lastName);
     }
-    
+
+    public static void main(String[] args) {
+        test();
+    }
+
 }
